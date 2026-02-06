@@ -8,7 +8,7 @@ export default function DashboardPage() {
       <header>
         <h1 className="font-headline text-4xl font-bold">Dashboard</h1>
         <p className="text-muted-foreground">
-          Your daily overview of campus life.
+          Your daily overview of life at IIT Ropar.
         </p>
       </header>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">

@@ -8,9 +8,9 @@ export interface ScheduleItem {
 }
 
 export const schedule: ScheduleItem[] = [
-  { time: '10:00 AM', course: 'CSCI 431: Intro to Computer Vision', location: 'GLENN 115' },
-  { time: '1:00 PM', course: 'PHIL 333: AI, Ethics, and Society', location: 'ARTS 210' },
-  { time: '3:30 PM', course: 'PHYS 111: Principles of Physics II', location: 'PHYS 101' },
+  { time: '10:00 AM', course: 'CSL333: Operating Systems', location: 'JC Bose-201' },
+  { time: '1:00 PM', course: 'EEL201: Digital Electronics', location: 'JC Bose-102' },
+  { time: '3:30 PM', course: 'MAL101: Linear Algebra & Diff Equations', location: 'JC Bose-303' },
 ];
 
 export interface MarketplaceItem {
@@ -24,25 +24,25 @@ export const marketplaceItems: MarketplaceItem[] = [
   {
     id: '1',
     name: 'Used Calculus Textbook',
-    price: '$50',
+    price: '₹500',
     image: getPlaceholderImage('marketplaceItem1'),
   },
   {
     id: '2',
     name: 'Noise-cancelling headphones',
-    price: '$120',
+    price: '₹1200',
     image: getPlaceholderImage('marketplaceItem2'),
   },
   {
     id: '3',
     name: 'Student-Made Bicycle',
-    price: '$75',
+    price: '₹2500',
     image: getPlaceholderImage('marketplaceItem3'),
   },
   {
     id: '4',
     name: 'Dorm Mini-Fridge',
-    price: '$90',
+    price: '₹4000',
     image: getPlaceholderImage('marketplaceItem4'),
   },
 ];
@@ -54,9 +54,10 @@ export interface DiningOption {
 }
 
 export const diningOptions: DiningOption[] = [
-  { name: 'Sutter Dining Hall', status: 'Open', waitTime: '5 min' },
-  { name: 'The Griffin Grill', status: 'Open', waitTime: '15 min' },
-  { name: 'Common Grounds Cafe', status: 'Closed', waitTime: 'N/A' },
+  { name: 'Jupiter Hostel Mess', status: 'Open', waitTime: '5 min' },
+  { name: 'Mercury Hostel Mess', status: 'Open', waitTime: '10 min' },
+  { name: 'Venus Hostel Mess (Girls)', status: 'Open', waitTime: '5 min' },
+  { name: 'Main Campus Cafeteria', status: 'Closed', waitTime: 'N/A' },
 ];
 
 export interface CampusEvent {
@@ -66,9 +67,9 @@ export interface CampusEvent {
 }
 
 export const campusEvents: CampusEvent[] = [
-  { name: 'Spring Career Fair', time: 'Today @ 2 PM', location: 'BMU Auditorium' },
-  { name: 'Guest Lecture: The Future of AI', time: 'Tomorrow @ 6 PM', location: 'PAC 134' },
-  { name: 'Outdoor Movie Night: The Matrix', time: 'Fri @ 8 PM', location: 'Trinity Commons' },
+  { name: 'Zeitgeist - Annual Cultural Fest', time: 'Today @ 6 PM', location: 'Main Ground' },
+  { name: 'Guest Lecture: Quantum Computing', time: 'Tomorrow @ 5 PM', location: 'M. Visvesvaraya-101' },
+  { name: 'Advitiya - Annual Tech Fest', time: 'Fri @ 10 AM', location: 'Entire Campus' },
 ];
 
 export interface CampusAlert {
@@ -78,8 +79,8 @@ export interface CampusAlert {
 
 export const campusAlerts: CampusAlert[] = [
   {
-    title: 'Parking Lot C Closed',
-    description: 'Lot C will be closed for maintenance on Friday.',
+    title: 'Power Outage Notice',
+    description: 'Scheduled maintenance in Jupiter Hostel from 2-4 PM today.',
   },
 ];
 

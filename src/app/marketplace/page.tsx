@@ -9,10 +9,10 @@ export default function MarketplacePage() {
       <header className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 className="font-headline text-4xl font-bold">
-            Student Exchange
+            IITR Student Exchange
           </h1>
           <p className="text-muted-foreground">
-            Buy, sell, and trade with fellow students.
+            Buy, sell, and trade with fellow students at IIT Ropar.
           </p>
         </div>
         <Button>

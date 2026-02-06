@@ -260,7 +260,7 @@ export default function LostAndFoundPage() {
         <div>
           <h1 className="font-headline text-4xl font-bold">Lost &amp; Found</h1>
           <p className="text-muted-foreground">
-            Help reconnect items with their owners.
+            Help reconnect items with their owners across the IIT Ropar campus.
           </p>
         </div>
         <Dialog open={open} onOpenChange={setOpen}>

@@ -95,7 +95,7 @@ function MobileNav() {
       <SheetContent side="left" className="w-[300px] p-0 bg-sidebar">
         <SidebarHeader className="border-b border-sidebar-border">
           <h2 className="font-headline text-2xl font-bold text-sidebar-foreground p-2">
-            Project Nexus
+            Nexus | IIT Ropar
           </h2>
         </SidebarHeader>
         <div className="p-4">
@@ -127,10 +127,10 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <Sidebar variant="inset" collapsible="icon">
         <SidebarHeader>
           <h2 className="font-headline text-2xl font-bold text-sidebar-foreground group-data-[collapsible=icon]:hidden">
-            Project Nexus
+            Nexus | IIT Ropar
           </h2>
           <h2 className="font-headline text-2xl font-bold text-sidebar-foreground hidden group-data-[collapsible=icon]:block">
-            PN
+            IITR
           </h2>
         </SidebarHeader>
         <SidebarContent>
