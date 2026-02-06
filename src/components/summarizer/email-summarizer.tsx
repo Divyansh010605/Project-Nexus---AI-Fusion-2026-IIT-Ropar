@@ -23,7 +23,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { Envelope, Loader2, Sparkles } from 'lucide-react';
+import { Mail, Loader2, Sparkles } from 'lucide-react';
 import { Skeleton } from '../ui/skeleton';
 
 const summarizerFormSchema = z.object({
@@ -66,7 +66,7 @@ export function EmailSummarizer() {
           <form onSubmit={form.handleSubmit(onSubmit)} className="h-full flex flex-col">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
-                <Envelope /> Email to Summarize
+                <Mail /> Email to Summarize
               </CardTitle>
             </CardHeader>
             <CardContent className="flex-1">
