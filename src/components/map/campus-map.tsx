@@ -1,6 +1,5 @@
 'use client';
 
-import { useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import {
   Card,
@@ -11,16 +10,12 @@ import {
 } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 
-export function CampusMap() {
-  const Map = useMemo(
-    () =>
-      dynamic(() => import('@/components/map/leaflet-map'), {
-        loading: () => <Skeleton className="h-full w-full" />,
-        ssr: false,
-      }),
-    []
-  );
+const Map = dynamic(() => import('@/components/map/leaflet-map'), {
+  loading: () => <Skeleton className="h-full w-full" />,
+  ssr: false,
+});
 
+export function CampusMap() {
   return (
     <Card className="h-full flex flex-col">
       <CardHeader>
