@@ -24,25 +24,25 @@ export const marketplaceItems: MarketplaceItem[] = [
   {
     id: '1',
     name: 'Used Calculus Textbook',
-    price: '₹500',
+    price: 'INR 500',
     image: getPlaceholderImage('marketplaceItem1'),
   },
   {
     id: '2',
     name: 'Noise-cancelling headphones',
-    price: '₹1200',
+    price: 'INR 1200',
     image: getPlaceholderImage('marketplaceItem2'),
   },
   {
     id: '3',
     name: 'Student-Made Bicycle',
-    price: '₹2500',
+    price: 'INR 2500',
     image: getPlaceholderImage('marketplaceItem3'),
   },
   {
     id: '4',
     name: 'Dorm Mini-Fridge',
-    price: '₹4000',
+    price: 'INR 4000',
     image: getPlaceholderImage('marketplaceItem4'),
   },
 ];
