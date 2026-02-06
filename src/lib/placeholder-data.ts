@@ -82,3 +82,35 @@ export const campusAlerts: CampusAlert[] = [
     description: 'Lot C will be closed for maintenance on Friday.',
   },
 ];
+
+export interface LostAndFoundItem {
+  id: string;
+  name: string;
+  description: string;
+  status: 'Lost' | 'Found';
+  image: ImagePlaceholder | undefined;
+}
+
+export const lostAndFoundItems: LostAndFoundItem[] = [
+  {
+    id: '1',
+    name: 'Red Water Bottle',
+    description: 'Found near the library.',
+    status: 'Found',
+    image: getPlaceholderImage('lostItem1'),
+  },
+  {
+    id: '2',
+    name: 'Keys on a cat keychain',
+    description: 'Lost my keys, please help!',
+    status: 'Lost',
+    image: getPlaceholderImage('lostItem2'),
+  },
+  {
+    id: '3',
+    name: 'Black Leather Wallet',
+    description: 'Found in the student union.',
+    status: 'Found',
+    image: getPlaceholderImage('lostItem3'),
+  },
+];

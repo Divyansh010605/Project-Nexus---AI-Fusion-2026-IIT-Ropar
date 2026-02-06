@@ -9,6 +9,7 @@ import {
   Map,
   ShoppingBag,
   Menu,
+  SearchX,
 } from 'lucide-react';
 import {
   SidebarProvider,
@@ -44,6 +45,11 @@ const navItems = [
     label: 'Marketplace',
   },
   {
+    href: '/lost-and-found',
+    icon: SearchX,
+    label: 'Lost & Found',
+  },
+  {
     href: '/map',
     icon: Map,
     label: 'Campus Map',
@@ -62,7 +68,7 @@ function NavMenu({ isCollapsed }: { isCollapsed: boolean }) {
       {navItems.map((item) => (
         <SidebarMenuItem key={item.href}>
           <SidebarMenuButton
-            isActive={pathname === item.href}
+            isActive={pathname.startsWith(item.href)}
             tooltip={isCollapsed ? item.label : undefined}
             asChild
           >
