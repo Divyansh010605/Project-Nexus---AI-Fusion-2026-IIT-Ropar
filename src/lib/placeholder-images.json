@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "marketplaceItem1",
+      "description": "A used calculus textbook on a desk",
+      "imageUrl": "https://images.unsplash.com/photo-1725870475677-7dc91efe9f93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0ZXh0Ym9vayUyMGJvb2t8ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "textbook book"
+    },
+    {
+      "id": "marketplaceItem2",
+      "description": "A pair of modern noise-cancelling headphones",
+      "imageUrl": "https://images.unsplash.com/photo-1764557159396-419b85356035?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoZWFkcGhvbmVzJTIwZWxlY3Ryb25pY3N8ZW58MHx8fHwxNzcwMzc2MzMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headphones electronics"
+    },
+    {
+      "id": "marketplaceItem3",
+      "description": "A student selling a bicycle",
+      "imageUrl": "https://images.unsplash.com/photo-1758599543113-52d7663a3ff6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiaWN5Y2xlJTIwdHJhbnNwb3J0YXRpb258ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bicycle transportation"
+    },
+    {
+      "id": "marketplaceItem4",
+      "description": "A mini-fridge for a dorm room",
+      "imageUrl": "https://images.unsplash.com/photo-1716191300038-28ba994616a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmcmlkZ2UlMjBhcHBsaWFuY2V8ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fridge appliance"
+    },
+    {
+      "id": "mapPlaceholder",
+      "description": "An aerial view of a university campus",
+      "imageUrl": "https://images.unsplash.com/photo-1694928850410-b209896782a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1wdXMlMjBtYXB8ZW58MHx8fHwxNzcwMzYwNzM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "campus map"
+    },
+    {
+      "id": "userAvatar",
+      "description": "A placeholder avatar for a user profile",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzAzMzYzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    }
+  ]
 }

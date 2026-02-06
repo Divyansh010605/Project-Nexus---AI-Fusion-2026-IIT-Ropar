@@ -7,4 +7,8 @@ export type ImagePlaceholder = {
   imageHint: string;
 };
 
-export const PlaceHolderImages: ImagePlaceholder[] = data.placeholderImages;
+export const placeholderImagesData: ImagePlaceholder[] = data.placeholderImages;
+
+export const getPlaceholderImage = (id: string) => {
+    return placeholderImagesData.find(img => img.id === id);
+}
