@@ -51,25 +51,27 @@ export interface DiningOption {
   name: string;
   status: 'Open' | 'Closed';
   waitTime: string;
+  image: ImagePlaceholder | undefined;
 }
 
 export const diningOptions: DiningOption[] = [
-  { name: 'Jupiter Hostel Mess', status: 'Open', waitTime: '5 min' },
-  { name: 'Mercury Hostel Mess', status: 'Open', waitTime: '10 min' },
-  { name: 'Venus Hostel Mess (Girls)', status: 'Open', waitTime: '5 min' },
-  { name: 'Main Campus Cafeteria', status: 'Closed', waitTime: 'N/A' },
+  { name: 'Jupiter Hostel Mess', status: 'Open', waitTime: '5 min', image: getPlaceholderImage('diningJupiter') },
+  { name: 'Mercury Hostel Mess', status: 'Open', waitTime: '10 min', image: getPlaceholderImage('diningMercury') },
+  { name: 'Venus Hostel Mess (Girls)', status: 'Open', waitTime: '5 min', image: getPlaceholderImage('diningVenus') },
+  { name: 'Main Campus Cafeteria', status: 'Closed', waitTime: 'N/A', image: getPlaceholderImage('diningCafeteria') },
 ];
 
 export interface CampusEvent {
   name: string;
   time: string;
   location: string;
+  image: ImagePlaceholder | undefined;
 }
 
 export const campusEvents: CampusEvent[] = [
-  { name: 'Zeitgeist - Annual Cultural Fest', time: 'Today @ 6 PM', location: 'Main Ground' },
-  { name: 'Guest Lecture: Quantum Computing', time: 'Tomorrow @ 5 PM', location: 'M. Visvesvaraya-101' },
-  { name: 'Advitiya - Annual Tech Fest', time: 'Fri @ 10 AM', location: 'Entire Campus' },
+  { name: 'Zeitgeist - Annual Cultural Fest', time: 'Today @ 6 PM', location: 'Main Ground', image: getPlaceholderImage('eventZeitgeist') },
+  { name: 'Guest Lecture: Quantum Computing', time: 'Tomorrow @ 5 PM', location: 'M. Visvesvaraya-101', image: getPlaceholderImage('eventLecture') },
+  { name: 'Advitiya - Annual Tech Fest', time: 'Fri @ 10 AM', location: 'Entire Campus', image: getPlaceholderImage('eventAdvitiya') },
 ];
 
 export interface CampusAlert {

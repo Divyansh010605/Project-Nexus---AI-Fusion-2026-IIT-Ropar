@@ -18,6 +18,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Separator } from '../ui/separator';
+import Image from 'next/image';
 
 export function DailyPulse() {
   return (
@@ -55,9 +56,19 @@ export function DailyPulse() {
             {diningOptions.map((option, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between rounded-md bg-secondary/50 p-3"
+                className="flex items-start gap-4 rounded-md bg-secondary/50 p-3"
               >
-                <div>
+                {option.image && (
+                  <Image
+                    src={option.image.imageUrl}
+                    alt={option.image.description}
+                    width={80}
+                    height={80}
+                    className="rounded-md object-cover aspect-square"
+                    data-ai-hint={option.image.imageHint}
+                  />
+                )}
+                <div className="flex-1">
                   <p className="font-medium">{option.name}</p>
                   <p className="text-sm text-muted-foreground">
                     Wait time: {option.waitTime}
@@ -87,15 +98,28 @@ export function DailyPulse() {
             {campusEvents.map((event, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between rounded-md bg-secondary/50 p-3"
+                className="overflow-hidden rounded-md bg-secondary/50"
               >
-                <div>
-                  <p className="font-medium">{event.name}</p>
-                  <p className="text-sm text-muted-foreground">
-                    {event.time} &middot; {event.location}
-                  </p>
+                {event.image && (
+                  <div className="relative aspect-video w-full">
+                    <Image
+                      src={event.image.imageUrl}
+                      alt={event.image.description}
+                      fill
+                      className="object-cover"
+                      data-ai-hint={event.image.imageHint}
+                    />
+                  </div>
+                )}
+                <div className="flex items-center justify-between p-3">
+                  <div>
+                    <p className="font-medium">{event.name}</p>
+                    <p className="text-sm text-muted-foreground">
+                      {event.time} &middot; {event.location}
+                    </p>
+                  </div>
+                  <ChevronRight className="h-5 w-5 text-muted-foreground" />
                 </div>
-                <ChevronRight className="h-5 w-5 text-muted-foreground" />
               </div>
             ))}
           </div>

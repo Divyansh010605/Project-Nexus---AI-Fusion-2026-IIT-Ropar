@@ -3,25 +3,25 @@
     {
       "id": "marketplaceItem1",
       "description": "A used calculus textbook on a desk",
-      "imageUrl": "https://images.unsplash.com/photo-1725870475677-7dc91efe9f93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0ZXh0Ym9vayUyMGJvb2t8ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1711200638940-b83f6cceafd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZXh0Ym9vayUyMGJvb2t8ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "textbook book"
     },
     {
       "id": "marketplaceItem2",
       "description": "A pair of modern noise-cancelling headphones",
-      "imageUrl": "https://images.unsplash.com/photo-1764557159396-419b85356035?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoZWFkcGhvbmVzJTIwZWxlY3Ryb25pY3N8ZW58MHx8fHwxNzcwMzc2MzMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1592375601764-5dd6be536f99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoZWFkcGhvbmVzJTIwZWxlY3Ryb25pY3N8ZW58MHx8fHwxNzcwMzc2MzMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "headphones electronics"
     },
     {
       "id": "marketplaceItem3",
       "description": "A student selling a bicycle",
-      "imageUrl": "https://images.unsplash.com/photo-1758599543113-52d7663a3ff6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiaWN5Y2xlJTIwdHJhbnNwb3J0YXRpb258ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1765605888954-97397ee84aaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiaWN5Y2xlJTIwdHJhbnNwb3J0YXRpb258ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bicycle transportation"
     },
     {
       "id": "marketplaceItem4",
       "description": "A mini-fridge for a dorm room",
-      "imageUrl": "https://images.unsplash.com/photo-1716191300038-28ba994616a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmcmlkZ2UlMjBhcHBsaWFuY2V8ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630699376564-5506f3f1e2e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmcmlkZ2UlMjBhcHBsaWFuY2V8ZW58MHx8fHwxNzcwMzc2MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fridge appliance"
     },
     {
@@ -33,26 +33,68 @@
     {
       "id": "userAvatar",
       "description": "A placeholder avatar for a user profile",
-      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzAzMzYzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwMzM2Mzc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
     },
     {
       "id": "lostItem1",
       "description": "A red water bottle",
-      "imageUrl": "https://images.unsplash.com/photo-1593583264434-45e3b55d7b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxSZWQmd2F0ZXImYm90dGxlfGVufDB8fHx8MTYyNjU4NjI4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YXRlciUyMGJvdHRsZXxlbnwwfHx8fDE3NzAzNTUwNzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "water bottle"
     },
     {
       "id": "lostItem2",
       "description": "A set of keys on a keychain",
-      "imageUrl": "https://images.unsplash.com/photo-1570725925327-3323145a1f68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrZXlzJTIwb24lMjBrZXljaGFpbnxlbnwwfHx8fDE2MjY1ODYzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1603508102977-02688e3265fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxrZXlzJTIwa2V5Y2hhaW58ZW58MHx8fHwxNzcwMzc3OTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "keys keychain"
     },
     {
       "id": "lostItem3",
       "description": "A black leather wallet",
-      "imageUrl": "https://images.unsplash.com/photo-1606825227453-4b63b7933939?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMGxlYXRoZXIlMjB3YWxsZXR8ZW58MHx8fHwxNjI2NTg2MzMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1620109177100-fa8753a564c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3YWxsZXQlMjBsZWF0aGVyfGVufDB8fHx8MTc3MDM3NjY0NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "wallet leather"
+    },
+    {
+      "id": "diningJupiter",
+      "description": "A university dining hall",
+      "imageUrl": "https://images.unsplash.com/photo-1631048500063-aac1c3565d4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkaW5pbmclMjBoYWxsfGVufDB8fHx8MTc3MDI4NDgwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dining hall"
+    },
+    {
+      "id": "diningMercury",
+      "description": "Another university dining hall",
+      "imageUrl": "https://images.unsplash.com/photo-1678028206509-70fa448f934c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zm9vZCUyMGNvdXJ0fGVufDB8fHx8MTc3MDM3Nzk1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food court"
+    },
+    {
+      "id": "diningVenus",
+      "description": "A modern cafeteria",
+      "imageUrl": "https://images.unsplash.com/photo-1643068482612-0386a4611738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FmZXRlcmlhJTIwZm9vZHxlbnwwfHx8fDE3NzAzNzc5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cafeteria food"
+    },
+    {
+      "id": "diningCafeteria",
+      "description": "A campus cafe",
+      "imageUrl": "https://images.unsplash.com/photo-1748800923550-ce30c91c690f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYWZlJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NzAzNzc5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cafe restaurant"
+    },
+    {
+      "id": "eventZeitgeist",
+      "description": "A cultural festival at night",
+      "imageUrl": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtdXNpYyUyMGZlc3RpdmFsfGVufDB8fHx8MTc3MDMzNjI0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music festival"
+    },
+    {
+      "id": "eventLecture",
+      "description": "A lecture hall with a speaker",
+      "imageUrl": "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsZWN0dXJlJTIwaGFsbHxlbnwwfHx8fDE3NzAzMDg2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lecture hall"
+    },
+    {
+      "id": "eventAdvitiya",
+      "description": "A technology fair",
+      "imageUrl": "https://images.unsplash.com/photo-1713314197527-f837d723b210?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWNoJTIwZXhwb3xlbnwwfHx8fDE3NzAzNzc5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech expo"
     }
   ]
 }
