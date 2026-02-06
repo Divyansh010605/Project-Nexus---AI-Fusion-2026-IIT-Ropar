@@ -1,5 +1,2 @@
-# Firebase Studio
+# Project Nexus - AI Fusion, 2026 - IIT,Ropar
 
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
