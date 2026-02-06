@@ -61,18 +61,16 @@ function NavMenu({ isCollapsed }: { isCollapsed: boolean }) {
     <SidebarMenu>
       {navItems.map((item) => (
         <SidebarMenuItem key={item.href}>
-          <Link href={item.href} legacyBehavior passHref>
-            <SidebarMenuButton
-              isActive={pathname === item.href}
-              tooltip={isCollapsed ? item.label : undefined}
-              asChild
-            >
-              <a>
-                <item.icon />
-                <span>{item.label}</span>
-              </a>
-            </SidebarMenuButton>
-          </Link>
+          <SidebarMenuButton
+            isActive={pathname === item.href}
+            tooltip={isCollapsed ? item.label : undefined}
+            asChild
+          >
+            <Link href={item.href}>
+              <item.icon />
+              <span>{item.label}</span>
+            </Link>
+          </SidebarMenuButton>
         </SidebarMenuItem>
       ))}
     </SidebarMenu>
