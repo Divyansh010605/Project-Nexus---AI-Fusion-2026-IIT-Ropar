@@ -4,7 +4,6 @@
 
 Nexus is a modern, all-in-one web application designed to streamline campus life for students at the Indian Institute of Technology, Ropar (IIT Ropar). It integrates various essential services into a single, intuitive platform, enhanced with AI-powered features to provide a personalized and efficient user experience.
 
-![Nexus Dashboard](https://picsum.photos/seed/nexus-dashboard/1200/600)
 
 ## ✨ Features
 
